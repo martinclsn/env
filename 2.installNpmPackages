@@ -1,0 +1,12 @@
+### INSTALL NPM PACKAGES ###
+
+#Check npm version
+npm -v
+
+#Update all globally installed packages
+npm -g update
+
+#Install yeoman, cordova, ios-sim, 
+npm install -g yo generator-angular cordova ios-sim ios-deploy grunt-bower-install
+
+#(grunt, bower and karma should be installed automatically)

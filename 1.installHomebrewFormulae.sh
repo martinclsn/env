@@ -14,3 +14,6 @@ brew upgrade
 
 # Check for problems
 brew doctor
+
+#Install Ant, android and npm
+brew install ant android-sdk npm
