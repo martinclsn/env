@@ -1,0 +1,11 @@
+rm -rf /usr/local/*
+rm -rf ~/Library/Caches/Homebrew
+rm -rf ~/Library/Logs/Homebrew
+rm -rf /Library/Caches/Homebrew/*
+rm -rf ~/.npm
+rm -rf ~/.cordova/
+rm -rf ~/.ionic/
+rm -rf ~/.m2
+rm -rf ~/.bower
+rm -rf ~/.cache
+rm -rf ~/.android
