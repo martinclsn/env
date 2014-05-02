@@ -1,7 +1,8 @@
-#In cordova project delete default www folder
+#In cordova project replace default www folder with link to dist folder
 rm -r www
+ln -s webapp/dist www
 
-#Create webapp folder
+#Create webapp in subfolder
 mkdir webapp && cd webapp
 yo angular theapp
 

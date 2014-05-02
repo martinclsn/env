@@ -2,8 +2,8 @@
 cordova create $PWD com.company.app.id "The app"
 
 #Add platforms
-cordova add platform ios
-cordova add platform android
+cordova platform add ios
+cordova platform add android
 
 #Emulate ios
 cordova build ios
