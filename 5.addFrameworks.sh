@@ -1,7 +1,8 @@
-#Edit bower.json and add dependency: "ionic":"1.0.0-beta.3"
+#Edit bower.json and add dependencies: 
+#  "ionic":"1.0.0-beta.3"
 
-#Download and install ionic
+#Download and install dependencies
 bower install
 
-#Include ionic in index.html
+#Include dependencies in index.html
 grunt bowerInstall
