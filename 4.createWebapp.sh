@@ -4,6 +4,8 @@ ln -s webapp/dist www
 
 #Create webapp in subfolder
 mkdir webapp && cd webapp
+
+#Run yeoman generator and 
 yo angular theapp
 
 #Build distribution
