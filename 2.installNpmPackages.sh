@@ -8,5 +8,5 @@ npm -g update
 
 #Install yeoman, cordova
 #(grunt, bower and karma should be installed automatically)
-npm install -g yo generator-angular cordova gulp
+npm install -g yo generator-gulp-webapp cordova gulp
 npm install -g ios-sim ios-deploy
