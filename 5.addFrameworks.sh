@@ -3,6 +3,3 @@
 
 #Download and install dependencies
 bower install
-
-#Include dependencies in index.html
-grunt bowerInstall
