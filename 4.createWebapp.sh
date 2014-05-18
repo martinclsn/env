@@ -6,7 +6,7 @@ ln -s webapp/dist www
 mkdir webapp && cd webapp
 
 #Run yeoman generator and 
-yo angular theapp
+yo gulp-webapp theapp
 
 #Build distribution
-grunt build
+gulp build
