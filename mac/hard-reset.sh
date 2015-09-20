@@ -8,14 +8,14 @@ sudo /System/Library/Extensions/intelhaxm.kext/Contents/Resources/uninstall.sh
 
 # Remove Homebrew stuff
 # Reference: https://github.com/Homebrew/homebrew/wiki/FAQ#how-do-i-uninstall-homebrew
-rm -rf /usr/local/*
-rm -rf ~/Library/Caches/Homebrew
-rm -rf ~/Library/Logs/Homebrew
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
 rm -rf /Library/Caches/Homebrew/*
 
 # Clean up the rest
-rm -rf ~/.npm
-rm -rf ~/.cordova/
-rm -rf ~/.bower
-rm -rf ~/.android
-rm -rf ~/.cache
+rm -rf /usr/local/lib/node_modules/
+cd ~ && rm -rf .android .bower .cache .cordova .groovy .hawtio .ionic .npm .node-gyp .plugman
+cd ~ && rm -rf .subversion .vim .viminfo .nbprofiler .netbeans .netbeans-derby .forge .lesshst .hawtio
+
+
+
+
