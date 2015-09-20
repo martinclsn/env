@@ -1,6 +1,2 @@
-# Hybrid
-This is a set of scripts to set up a new project for developing hybrid apps. It is opinionated towards certain tools. 
-
-## Prerequisites
-- Mac OS X
-- Xcode
+# ENV
+Here's a set of instructions to set up tools on different platforms.
