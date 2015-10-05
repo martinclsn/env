@@ -1,4 +1,4 @@
-REM First install chocolatey. See https://chocolatey.org/
+REM Install chocolatey. See https://chocolatey.org/
 @powershell -NoProfile -ExecutionPolicy Bypass -Command ^
 	"iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))"
 
