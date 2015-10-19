@@ -2,8 +2,9 @@ REM Install chocolatey. See https://chocolatey.org/
 REM Extra packages to consider: python2 pip tortoisehg
 
 choco upgrade -y ^
-	7zip chocolatey googlechrome googledrive conemu doublecmd dropbox freecommander-xe ^
-	flashplayerplugin firefox foxitreader keepass jdk8 nodejs procexp qbittorrent ^
+	7zip autohotkey.portable ccleaner chocolatey conemu googlechrome ^
+	googledrive doublecmd dropbox freecommander-xe flashplayerplugin ^
+	firefox foxitreader keepass jdk8 nodejs procexp qbittorrent ^
 	slack spotify skype sublimetext3 virtualbox vlc winmerge
 
 mkdir C:\opt
