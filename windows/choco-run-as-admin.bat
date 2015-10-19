@@ -6,7 +6,7 @@ REM Extra packages to consider: steam vlc python2 pip tortoisehg
 
 choco upgrade -y ^
 	7zip chocolatey googlechrome conemu doublecmd dropbox freecommander-xe ^
-	github flashplayerplugin firefox keepass jdk8 nodejs slack spotify ^
+	github flashplayerplugin firefox keepass jdk8 nodejs procexp slack spotify ^
 	skype sublime virtualbox winmerge
 
 mkdir C:\opt
