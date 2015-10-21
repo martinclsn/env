@@ -4,7 +4,7 @@ REM Extra packages to consider: python2 pip tortoisehg
 choco upgrade -y ^
 	7zip autohotkey.portable ccleaner chocolatey conemu googlechrome ^
 	googledrive doublecmd dropbox freecommander-xe flashplayerplugin ^
-	firefox foxitreader keepass jdk8 nodejs procexp qbittorrent ^
+	firefox adobereader keepass jdk8 nodejs procexp qbittorrent ^
 	slack spotify skype sublimetext3 virtualbox vlc winmerge
 
 mkdir C:\opt
