@@ -4,4 +4,4 @@ mkdir C:\opt\bin
 
 C:\opt\bin\setup-x86_64.exe --site="ftp://cygwin.uib.no/pub/cygwin/" --root="C:\opt\cygwin" ^
 	--quiet-mode --no-shortcuts --no-startmenu --no-desktop --local-package-dir %TEMP% ^
-	--packages="bash,coreutils,cygutils,cygwin,curl,cvs,dos2unix,grep,git,gzip,less,mercurial,openssh,python,subversion,tar,unzip,vim,wget,which,xinit,zip"
+	--packages="bash,coreutils,cygutils,cygwin,curl,cvs,dos2unix,grep,git,gzip,less,mercurial,ncurses,openssh,python,subversion,tar,unzip,vim,wget,which,xinit,zip"
