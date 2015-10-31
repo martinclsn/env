@@ -1,11 +1,20 @@
-### INSTALL HOMEBREW ###
-# Reference: http://brew.sh/
-
-#Install
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+# Install homebrew. See: http://brew.sh/
+# ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Make sure homebrew and formulas are up to date
-brew update 
+brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup
+
+#Install stuff
+brew tap caskroom/cask
+brew install bash brew-cask coreutils docker docker-machine maven node 
+
+brew cask install dropbox double-commander google-chrome google-drive java \
+	libreoffice magicprefs menumeters skype soundflower spotify \
+	sublime-text3 utorrent virtualbox vlc xquartz
+
+# Check problems
+brew doctor
+brew cask doctor
 
 # View what's old
 brew outdated
@@ -13,19 +22,14 @@ brew outdated
 # Upgrade everything 
 brew upgrade
 
-# Check for problems
-brew doctor
+# Change shell
+#sudo bash -c "echo /usr/local/bin/bash >> /etc/shells"
+#chsh -s /usr/local/bin/bash
 
-# Whats possible to clean up
-brew cleanup -n
+#Link Java
+#ln -s /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/ /opt/java/current 
 
-#Install npm
-brew install node
+# Coreutils includes gls that supports "--color=auto"
 
-#Install new bash
-brew install bash
-sudo bash -c "echo /usr/local/bin/bash >> /etc/shells"
-chsh -s /usr/local/bin/bash
-
-brew install coreutils grep
-#brew install ant android-sdk
+# Some other stuff?
+# brew install ant android-sdk
