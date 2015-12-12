@@ -4,10 +4,11 @@
 npm -v
 
 #Update all globally installed packages
+npm -g outdated
 npm -g update
 
 #Install
-npm install -g yo gulp grunt-cli bower
+npm install -g npm@latest yo gulp grunt-cli bower
 
 #Ionic tools
-#npm install -g cordova ios-sim ios-deploy
+#sudo npm install -g cordova cordova-common umask ios-sim ios-deploy

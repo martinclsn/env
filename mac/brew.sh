@@ -6,7 +6,7 @@ brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup
 
 #Install stuff
 brew tap caskroom/cask
-brew install bash brew-cask coreutils docker docker-machine maven node 
+brew install android-sdk bash brew-cask coreutils docker docker-machine maven node 
 
 brew cask install dropbox double-commander google-chrome google-drive java \
 	libreoffice magicprefs menumeters skype soundflower spotify \
