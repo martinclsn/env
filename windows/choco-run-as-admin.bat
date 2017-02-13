@@ -5,4 +5,4 @@ choco upgrade -y ^
 	7zip adobereader autohotkey.portable ccleaner chocolatey conemu googlechrome ^
 	dropbox freecommander-xe flashplayerplugin ^
 	keepass malwarebytes nodejs procexp ^
-	slack spotify skype sublimetext3 virtualbox winmerge
+	slack skype sublimetext3 virtualbox winmerge
